@@ -44,7 +44,7 @@ namespace mvccrud.Controllers
 
             }
             ModelState.Clear();
-            return View("Student");
+            return RedirectToAction("StudentList");
         }
 
         public ActionResult EditStudent(tbl_Student stobj)
